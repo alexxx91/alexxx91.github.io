@@ -9,28 +9,40 @@
 <body>
     <h1>W celu zapisania się na szkolenie proszę wypełnić formularz:</h1>
     <form action="https://formspree.io/aleksandar.korach@gmail.com" method="post">
-        Imię: <br>
-        <input type="text" name="imię"><br> Nazwisko: <br>
-        <input type="text" name="nazwisko"><br> Email: <br>
-        <input type="email" name="wyślij do"><br> Nr telefonu: <br>
-        <input type="text" name="nr telefonu"><br> Wybór miasta: <br>
+       
+        <label for="name">Imię</label> <br>
+        <input type="text" name="imię"><br>
+        
+        <label for="surname">Nazwisko</label><br>
+        <input type="text" name="nazwisko"><br>
+        
+        <label for="email">Email</label> <br>
+        <input type="email" name="wyślij do"><br>
+        
+        <label for="phone">Nr telefonu</label> <br>
+        <input type="text" name="nr telefonu"><br>
+        
+        <label for="town">Miasto</label> <br>
         <select name="Miasta">
            <option value="Krakow">Kraków</option>
            <option value="Warszawa">Warszawa</option>
            <option value="Gdansk">Gdańsk</option>
-       </select><br> 
-       
-       Płeć: <br> 
-           mężczyzna: <input type="radio" name="płeć" value="mężczyzna" checked><br>
-           kobieta: <input type="radio" name="płeć" value="kobieta" checked><br>
-    
-       <input type="checkbox">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu zgłoszeniowego<br>   (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922). <br>
-       
-       Wiadomość: <br>
-       <textarea name="Wiadomość" cols="50" rows="8"></textarea><br>
-       
-       <input type="submit" value="Wyślij"><br>
-       
+       </select><br>
+
+        <label for="gender">Płeć</label> <br> 
+        <label for="male">Mężczyzna</label>
+         <input type="radio" name="gender" value="mężczyzna" checked><br> 
+         <label for="female">Kobieta</label> 
+         <input type="radio" name="gender" value="kobieta" checked><br>
+         
+        <label for="checkbox"></label><br>
+        <input type="checkbox">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu zgłoszeniowego<br> (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922). <br> 
+        
+        <label for="message">Wiadomość</label> <br>
+        <textarea name="Wiadomość" cols="50" rows="8"></textarea><br>
+        
+        <label for="submit"></label><br>
+        <input type="submit" value="Wyślij"><br>
 
 
     </form>
