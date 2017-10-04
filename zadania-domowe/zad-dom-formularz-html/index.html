@@ -22,24 +22,25 @@
         <label for="phone">Nr telefonu</label> <br>
         <input type="text" name="nr telefonu" id="phone"><br>
         
-        <label for="town">Miasto</label> <br>
+        <p>Wybierz miasto:</p>
         <select name="Miasta">
-           <option id="town" value="Krakow">Kraków</option>
-           <option id="town" value="Warszawa">Warszawa</option>
-           <option id="town" value="Gdansk">Gdańsk</option>
+           <option id="Kraków" value="Krakow">Kraków</option>
+           <option id="Warszawa" value="Warszawa">Warszawa</option>
+           <option id="Gdańsk" value="Gdansk">Gdańsk</option>
        </select><br>
 
-        <label for="gender">Płeć</label> <br> 
+        <p>Płeć</p>        
         <label for="male">Mężczyzna</label>
-         <input type="radio" name="gender" id="male" value="male" checked><br> 
+         <input type="radio" name="male" id="male" value="male" checked><br> 
          <label for="female">Kobieta</label> 
-         <input type="radio" name="gender" id="female" value="female" checked><br>
+         <input type="radio" name="female" id="female" value="female" checked><br><br>
+         
          
         <label for="checkbox">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu zgłoszeniowego<br> (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922).</label><br>
         <input type="checkbox" name="zgoda" id="checkbox"> <br> 
         
         <label for="message">Wiadomość</label> <br>
-        <textarea name="Wiadomość" cols="50" rows="8"></textarea><br>
+        <textarea name="Wiadomość" id="message" cols="50" rows="8"></textarea><br>
         
         <input type="submit" value="Wyślij"><br>
 
