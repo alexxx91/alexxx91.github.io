@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (min-width: 1171px) {
+    
+    header {
+        background-image: url(../zadanie-domowe-rwd-materialy/obrazy/man-1.jpg);
+        background-size: cover;
+        background-position: top;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        color: white;
+    }
+    
+    .header-inner {
+        text-align: left;
+        font-family: "Verdana";
+        position: absolute;
+        left: 5%;
+        top: 50%;
+    }
+    
+    h1 {
+        font-size: 25px;
+    }
+    
+    h2 {
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 1170px) {
+    
+    header {
+        background-image: url(../zadanie-domowe-rwd-materialy/obrazy/man-2.jpg);
+        background-size: cover;
+        background-position: top;
+        position: absolute;
+        width: 100%;
+        height: 70%;
+        color: white;
+    }
+    
+    .header-inner {
+        text-align: left;
+        font-family: "Verdana";
+        position: absolute;
+        left: 57%;
+        top: 28%;
+    }
+    
+    h1 {
+        font-size: 15px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width: 992px) {
+    
+    header {
+        background-image: url(../zadanie-domowe-rwd-materialy/obrazy/man-1.jpg);
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        color: black;
+    }
+    
+    .header-inner {
+        text-align:center;
+        top: 100%;
+        left: 25%;
+        font-family: "Verdana";
+        position: absolute;
+        display: block;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+}
+
+
