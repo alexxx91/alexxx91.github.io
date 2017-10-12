@@ -76,8 +76,9 @@ body {
     
     .header-inner {
         text-align:center;
+        width: 100%;
         top: 100%;
-        left: 25%;
+        left: 0%;
         font-family: "Verdana";
         position: absolute;
         display: block;
