@@ -91,10 +91,8 @@ function pobierzDane(event) {
         onSuccess: function (response) {
  var jsonObj = JSON.parse(response);
             console.log(jsonObj);
-            document.getElementById("dane-programisty").innerHTML = 'Imię:' + jsonObj.imie;
-            document.getElementById("dane-programisty").innerHTML = 'Nazwisko: ' + jsonObj.nazwisko;
-            document.getElementById("dane-programisty").innerHTML = 'Zawód: ' + jsonObj.zawod;
-            document.getElementById("dane-programisty").innerHTML = 'Firma: ' + jsonObj.firma;
+            document.getElementById("dane-programisty").innerHTML = 'Imię:' + jsonObj.imie + '<br>' + 'Nazwisko: ' + jsonObj.nazwisko
+            + '<br>' + 'Zawód: ' + jsonObj.zawod + '<br>' + 'Firma: ' + jsonObj.firma;
 },
 onerror: function (msg) {
 console.log(msg);
